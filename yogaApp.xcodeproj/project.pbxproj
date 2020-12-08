@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA08D8F257F98D0000E37FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08D8E257F98D0000E37FA /* AppDelegate.swift */; };
+		CEA08D91257F98D0000E37FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08D90257F98D0000E37FA /* SceneDelegate.swift */; };
+		CEA08D93257F98D0000E37FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08D92257F98D0000E37FA /* ViewController.swift */; };
+		CEA08D96257F98D0000E37FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA08D94257F98D0000E37FA /* Main.storyboard */; };
+		CEA08D98257F98D3000E37FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA08D97257F98D3000E37FA /* Assets.xcassets */; };
+		CEA08D9B257F98D3000E37FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA08D99257F98D3000E37FA /* LaunchScreen.storyboard */; };
+		CEA08DA0257F98D3000E37FA /* yogaApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CEA08D9F257F98D3000E37FA /* yogaApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CEA08DA6257F98D3000E37FA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA08DA4257F98D3000E37FA /* Interface.storyboard */; };
+		CEA08DA8257F98D4000E37FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA08DA7257F98D4000E37FA /* Assets.xcassets */; };
+		CEA08DAF257F98D4000E37FA /* yogaApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CEA08DAE257F98D4000E37FA /* yogaApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CEA08DB4257F98D4000E37FA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08DB3257F98D4000E37FA /* InterfaceController.swift */; };
+		CEA08DB6257F98D4000E37FA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08DB5257F98D4000E37FA /* ExtensionDelegate.swift */; };
+		CEA08DB8257F98D4000E37FA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08DB7257F98D4000E37FA /* ComplicationController.swift */; };
+		CEA08DBA257F98D5000E37FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA08DB9257F98D5000E37FA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA08DA1257F98D3000E37FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA08D83257F98CF000E37FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA08D9E257F98D3000E37FA;
+			remoteInfo = "yogaApp WatchKit App";
+		};
+		CEA08DB0257F98D4000E37FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA08D83257F98CF000E37FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA08DAD257F98D4000E37FA;
+			remoteInfo = "yogaApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEA08DC1257F98D5000E37FA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CEA08DAF257F98D4000E37FA /* yogaApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA08DC5257F98D5000E37FA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CEA08DA0257F98D3000E37FA /* yogaApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEA08D8B257F98D0000E37FA /* yogaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yogaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA08D8E257F98D0000E37FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA08D90257F98D0000E37FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEA08D92257F98D0000E37FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA08D95257F98D0000E37FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA08D97257F98D3000E37FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA08D9A257F98D3000E37FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA08D9C257F98D3000E37FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA08D9F257F98D3000E37FA /* yogaApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yogaApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA08DA5257F98D3000E37FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CEA08DA7257F98D4000E37FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA08DA9257F98D4000E37FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA08DAE257F98D4000E37FA /* yogaApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "yogaApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA08DB3257F98D4000E37FA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CEA08DB5257F98D4000E37FA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CEA08DB7257F98D4000E37FA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		CEA08DB9257F98D5000E37FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA08DBB257F98D5000E37FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA08D88257F98D0000E37FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA08DAB257F98D4000E37FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA08D82257F98CF000E37FA = {
+			isa = PBXGroup;
+			children = (
+				CEA08D8D257F98D0000E37FA /* yogaApp */,
+				CEA08DA3257F98D3000E37FA /* yogaApp WatchKit App */,
+				CEA08DB2257F98D4000E37FA /* yogaApp WatchKit Extension */,
+				CEA08D8C257F98D0000E37FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA08D8C257F98D0000E37FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA08D8B257F98D0000E37FA /* yogaApp.app */,
+				CEA08D9F257F98D3000E37FA /* yogaApp WatchKit App.app */,
+				CEA08DAE257F98D4000E37FA /* yogaApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA08D8D257F98D0000E37FA /* yogaApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEA08D8E257F98D0000E37FA /* AppDelegate.swift */,
+				CEA08D90257F98D0000E37FA /* SceneDelegate.swift */,
+				CEA08D92257F98D0000E37FA /* ViewController.swift */,
+				CEA08D94257F98D0000E37FA /* Main.storyboard */,
+				CEA08D97257F98D3000E37FA /* Assets.xcassets */,
+				CEA08D99257F98D3000E37FA /* LaunchScreen.storyboard */,
+				CEA08D9C257F98D3000E37FA /* Info.plist */,
+			);
+			path = yogaApp;
+			sourceTree = "<group>";
+		};
+		CEA08DA3257F98D3000E37FA /* yogaApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CEA08DA4257F98D3000E37FA /* Interface.storyboard */,
+				CEA08DA7257F98D4000E37FA /* Assets.xcassets */,
+				CEA08DA9257F98D4000E37FA /* Info.plist */,
+			);
+			path = "yogaApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		CEA08DB2257F98D4000E37FA /* yogaApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEA08DB3257F98D4000E37FA /* InterfaceController.swift */,
+				CEA08DB5257F98D4000E37FA /* ExtensionDelegate.swift */,
+				CEA08DB7257F98D4000E37FA /* ComplicationController.swift */,
+				CEA08DB9257F98D5000E37FA /* Assets.xcassets */,
+				CEA08DBB257F98D5000E37FA /* Info.plist */,
+			);
+			path = "yogaApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA08D8A257F98D0000E37FA /* yogaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA08DC6257F98D5000E37FA /* Build configuration list for PBXNativeTarget "yogaApp" */;
+			buildPhases = (
+				CEA08D87257F98D0000E37FA /* Sources */,
+				CEA08D88257F98D0000E37FA /* Frameworks */,
+				CEA08D89257F98D0000E37FA /* Resources */,
+				CEA08DC5257F98D5000E37FA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA08DA2257F98D3000E37FA /* PBXTargetDependency */,
+			);
+			name = yogaApp;
+			productName = yogaApp;
+			productReference = CEA08D8B257F98D0000E37FA /* yogaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA08D9E257F98D3000E37FA /* yogaApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA08DC2257F98D5000E37FA /* Build configuration list for PBXNativeTarget "yogaApp WatchKit App" */;
+			buildPhases = (
+				CEA08D9D257F98D3000E37FA /* Resources */,
+				CEA08DC1257F98D5000E37FA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA08DB1257F98D4000E37FA /* PBXTargetDependency */,
+			);
+			name = "yogaApp WatchKit App";
+			productName = "yogaApp WatchKit App";
+			productReference = CEA08D9F257F98D3000E37FA /* yogaApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CEA08DAD257F98D4000E37FA /* yogaApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA08DBE257F98D5000E37FA /* Build configuration list for PBXNativeTarget "yogaApp WatchKit Extension" */;
+			buildPhases = (
+				CEA08DAA257F98D4000E37FA /* Sources */,
+				CEA08DAB257F98D4000E37FA /* Frameworks */,
+				CEA08DAC257F98D4000E37FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yogaApp WatchKit Extension";
+			productName = "yogaApp WatchKit Extension";
+			productReference = CEA08DAE257F98D4000E37FA /* yogaApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA08D83257F98CF000E37FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CEA08D8A257F98D0000E37FA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CEA08D9E257F98D3000E37FA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CEA08DAD257F98D4000E37FA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = CEA08D86257F98CF000E37FA /* Build configuration list for PBXProject "yogaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA08D82257F98CF000E37FA;
+			productRefGroup = CEA08D8C257F98D0000E37FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA08D8A257F98D0000E37FA /* yogaApp */,
+				CEA08D9E257F98D3000E37FA /* yogaApp WatchKit App */,
+				CEA08DAD257F98D4000E37FA /* yogaApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA08D89257F98D0000E37FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA08D9B257F98D3000E37FA /* LaunchScreen.storyboard in Resources */,
+				CEA08D98257F98D3000E37FA /* Assets.xcassets in Resources */,
+				CEA08D96257F98D0000E37FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA08D9D257F98D3000E37FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA08DA8257F98D4000E37FA /* Assets.xcassets in Resources */,
+				CEA08DA6257F98D3000E37FA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA08DAC257F98D4000E37FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA08DBA257F98D5000E37FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA08D87257F98D0000E37FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA08D93257F98D0000E37FA /* ViewController.swift in Sources */,
+				CEA08D8F257F98D0000E37FA /* AppDelegate.swift in Sources */,
+				CEA08D91257F98D0000E37FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA08DAA257F98D4000E37FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA08DB6257F98D4000E37FA /* ExtensionDelegate.swift in Sources */,
+				CEA08DB4257F98D4000E37FA /* InterfaceController.swift in Sources */,
+				CEA08DB8257F98D4000E37FA /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA08DA2257F98D3000E37FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA08D9E257F98D3000E37FA /* yogaApp WatchKit App */;
+			targetProxy = CEA08DA1257F98D3000E37FA /* PBXContainerItemProxy */;
+		};
+		CEA08DB1257F98D4000E37FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA08DAD257F98D4000E37FA /* yogaApp WatchKit Extension */;
+			targetProxy = CEA08DB0257F98D4000E37FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA08D94257F98D0000E37FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA08D95257F98D0000E37FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA08D99257F98D3000E37FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA08D9A257F98D3000E37FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA08DA4257F98D3000E37FA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA08DA5257F98D3000E37FA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA08DBC257F98D5000E37FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA08DBD257F98D5000E37FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CEA08DBF257F98D5000E37FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "yogaApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ovch.yogaApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		CEA08DC0257F98D5000E37FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "yogaApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ovch.yogaApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		CEA08DC3257F98D5000E37FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = yogaApp_WatchKit_Extension;
+				INFOPLIST_FILE = "yogaApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ovch.yogaApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		CEA08DC4257F98D5000E37FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = yogaApp_WatchKit_Extension;
+				INFOPLIST_FILE = "yogaApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ovch.yogaApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		CEA08DC7257F98D5000E37FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yogaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ovch.yogaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA08DC8257F98D5000E37FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = yogaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ovch.yogaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA08D86257F98CF000E37FA /* Build configuration list for PBXProject "yogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA08DBC257F98D5000E37FA /* Debug */,
+				CEA08DBD257F98D5000E37FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA08DBE257F98D5000E37FA /* Build configuration list for PBXNativeTarget "yogaApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA08DBF257F98D5000E37FA /* Debug */,
+				CEA08DC0257F98D5000E37FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA08DC2257F98D5000E37FA /* Build configuration list for PBXNativeTarget "yogaApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA08DC3257F98D5000E37FA /* Debug */,
+				CEA08DC4257F98D5000E37FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA08DC6257F98D5000E37FA /* Build configuration list for PBXNativeTarget "yogaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA08DC7257F98D5000E37FA /* Debug */,
+				CEA08DC8257F98D5000E37FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA08D83257F98CF000E37FA /* Project object */;
+}
