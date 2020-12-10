@@ -21,6 +21,8 @@
 		CEA08DB6257F98D4000E37FA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08DB5257F98D4000E37FA /* ExtensionDelegate.swift */; };
 		CEA08DB8257F98D4000E37FA /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08DB7257F98D4000E37FA /* ComplicationController.swift */; };
 		CEA08DBA257F98D5000E37FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA08DB9257F98D5000E37FA /* Assets.xcassets */; };
+		CEA08DCD257FA1A8000E37FA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08DCC257FA1A8000E37FA /* TableViewController.swift */; };
+		CEA08DD2257FB4F8000E37FA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA08DD1257FB4F8000E37FA /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		CEA08DB7257F98D4000E37FA /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		CEA08DB9257F98D5000E37FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA08DBB257F98D5000E37FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA08DCC257FA1A8000E37FA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CEA08DD1257FB4F8000E37FA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				CEA08D90257F98D0000E37FA /* SceneDelegate.swift */,
 				CEA08D92257F98D0000E37FA /* ViewController.swift */,
 				CEA08D94257F98D0000E37FA /* Main.storyboard */,
+				CEA08DCC257FA1A8000E37FA /* TableViewController.swift */,
+				CEA08DD1257FB4F8000E37FA /* TableViewCell.swift */,
 				CEA08D97257F98D3000E37FA /* Assets.xcassets */,
 				CEA08D99257F98D3000E37FA /* LaunchScreen.storyboard */,
 				CEA08D9C257F98D3000E37FA /* Info.plist */,
@@ -291,9 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA08DD2257FB4F8000E37FA /* TableViewCell.swift in Sources */,
 				CEA08D93257F98D0000E37FA /* ViewController.swift in Sources */,
 				CEA08D8F257F98D0000E37FA /* AppDelegate.swift in Sources */,
 				CEA08D91257F98D0000E37FA /* SceneDelegate.swift in Sources */,
+				CEA08DCD257FA1A8000E37FA /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
